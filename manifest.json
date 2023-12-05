@@ -1,0 +1,17 @@
+{
+    "manifest_version" : 3,
+    "name" : "Extension",
+    "description" : "A simple To-Do chrome extension.",
+    "version" : "1.0",
+    "action" : {
+        "default_popup" : "index.html"
+    },
+    "permissions" : [
+        "storage"
+    ],
+    "icons" : {
+        "1" : "src/img/logo16.png",
+        "2" : "src/img/logo32.png",
+        "3" : "src/img/logo128.png"
+    }
+}
